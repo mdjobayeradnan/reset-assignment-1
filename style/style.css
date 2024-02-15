@@ -53,7 +53,7 @@
 
 /* best gift section title*/
 .best-gift-title{
-    margin: 15px  120px;
+    margin: 15px  130px;
 }
 .title{
     color: #FF0000;
@@ -78,7 +78,8 @@
     
 }
 .second-3-card > div{
-    margin: 0 120px;
+
+    margin: 15px 120px;
     height: 424px;
     width: 550px;
     display:flex ;
@@ -87,4 +88,43 @@
 }
 
 
+/*subscribe section*/
+.subscribe-section{
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 120px 150px;
+    height: 500px;
+    border: rebeccapurple solid 5px;
+    width: 1200px;
+    
+    
+}
+.subscribe-section .img-message{
+    border: #FF0000 solid 5px;
+    padding: 20px 520px;
+}
+.subscribe-section > h1 , p{
+    text-align: center;
+}
+.subscribe-section >input , button{
+    border: yellow 5px solid; 
+    padding:15px  22px;
+ 
+}
+.subscribe-section .input-item{
+    border:green 2px solid;
+   margin: 0 420px;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.subscribe-section .input-item >button{
+  border-radius: 5px;
+  background: #FF0000;
+
+}
+.subscribe-section .input-item > input{
+width: 250px;
+border: 0;
+}
 
