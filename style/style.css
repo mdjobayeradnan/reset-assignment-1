@@ -14,6 +14,7 @@
 
    
 }
+
 .text-title{
     text-align: center;
 }
@@ -32,3 +33,58 @@
 .text-title > h3{
     color: #FF0000
 }
+
+/* welcome section style*/
+
+.welcome-section{
+    background-image: url(../images/Vectorrr.png);
+
+    
+    
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.img{
+    align-items: center;
+}
+
+
+/* best gift section title*/
+.best-gift-title{
+    margin: 15px  120px;
+}
+.title{
+    color: #FF0000;
+    ;
+
+}
+.title-sub{
+    color:  rgb(7, 2, 17);
+}
+.gift-description{
+    color:rgba(7, 2, 17, 0.6)
+}
+/* card item*/
+.first-3-card >div {
+    margin: 0 120px;
+    height: 424px;
+    width: 550px;
+    display:flex ;
+    gap: 15px;
+   
+ 
+    
+}
+.second-3-card > div{
+    margin: 0 120px;
+    height: 424px;
+    width: 550px;
+    display:flex ;
+    gap: 15px;
+   
+}
+
+
+
