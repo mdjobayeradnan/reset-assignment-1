@@ -1,9 +1,10 @@
-*{
+* {
     border: 0;
 }
+
 /* banner section  style*/
-.header-section{
-    margin: 150px 120px;
+.header-section {
+    margin: 100px 120px;
 }
 
 
@@ -12,119 +13,213 @@
     margin: 0 400px;
     max-width: 75%;
 
-   
+
 }
 
-.text-title{
+.text-title {
     text-align: center;
 }
-.text-title> h1{
-   
-  
-    font-size:xx-large;
+
+.text-title>h1 {
+
+
+    font-size: xx-large;
     color: #FF0000
-   
-    
-   
 }
-.text-title h2{
-   color: #070211;
+
+.text-title h2 {
+    color: #070211;
 }
-.text-title > h3{
+
+.text-title>h3 {
     color: #FF0000
 }
 
 /* welcome section style*/
 
-.welcome-section{
+.welcome-section {
     background-image: url(../images/Vectorrr.png);
 
-    
-    
+
+
     height: 800px;
     background-repeat: no-repeat;
     margin-top: 150px;
 }
 
-.img{
+.img {
     align-items: center;
 }
 
+/*best offer section */
+
+.best-offer-section {
+    background-color: rgb(255, 214, 239);
+    width: 1325;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 170px;
+    border-radius: 5px;
+    align-items: center;
+}
+.best-offer-section > h3{
+    text-align: center;
+    padding: 5px ;
+
+}
+.best-offer-section > div{
+    padding-top: 70px;
+    text-align: center;
+}
+.best-offer-section > div > button{
+border:  solid  red 5px;
+margin: 3px;
+height: 20px;
+padding: 30px;
+}
+
+.best-offer-heading{
+    text-align: center;
+    padding: 50px ;
+}
+
+.offer-information {
+    text-align: center;
+    color: #bf7e7e;
+
+}
+.best-offer-container{
+    margin: 20px 150px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+
 
 /* best gift section title*/
-.best-gift-title{
-    margin: 15px  130px;
+.best-gift-title {
+    margin: 15px 130px;
 }
-.title{
+
+.title {
     color: #FF0000;
     ;
 
 }
-.title-sub{
-    color:  rgb(7, 2, 17);
+
+.title-sub {
+    color: rgb(7, 2, 17);
 }
-.gift-description{
-    color:rgba(7, 2, 17, 0.6)
+
+.gift-description {
+    color: rgba(7, 2, 17, 0.6)
 }
+
 /* card item*/
-.first-3-card >div {
+.first-3-card>div {
     margin: 0 120px;
     height: 424px;
     width: 550px;
-    display:flex ;
+    display: flex;
     gap: 15px;
-   
- 
-    
+
+
+
 }
-.second-3-card > div{
+
+.second-3-card>div {
 
     margin: 15px 120px;
     height: 424px;
     width: 550px;
-    display:flex ;
+    display: flex;
     gap: 15px;
-   
+
 }
 
 
 /*subscribe section*/
-.subscribe-section{
+.subscribe-section {
     background-color: rgba(255, 0, 0, 0.05);
     margin: 120px 150px;
     height: 500px;
     border: rebeccapurple solid 5px;
     width: 1200px;
-    
-    
+
+
 }
-.subscribe-section .img-message{
+
+.subscribe-section .img-message {
     border: #FF0000 solid 5px;
     padding: 20px 520px;
 }
-.subscribe-section > h1 , p{
+
+.subscribe-section>h1,
+p {
     text-align: center;
+    color: rgba(7, 2, 17, 0.6)
 }
-.subscribe-section >input , button{
-    border: yellow 5px solid; 
-    padding:15px  22px;
- 
+
+.subscribe-section h1 {
+    color: rgb(7, 2, 17);
 }
-.subscribe-section .input-item{
-    border:green 2px solid;
-   margin: 0 420px;
+
+.subscribe-section>input,
+button {
+    border: yellow 5px solid;
+    padding: 15px 22px;
+
+}
+
+.subscribe-section .input-item {
+    border: green 2px solid;
+    margin: 0 420px;
     display: flex;
     justify-content: space-between;
 
-   
-}
-.subscribe-section .input-item >button{
-  border-radius: 5px;
-  background: #FF0000;
 
 }
-.subscribe-section .input-item > input{
-width: 250px;
-border: 0;
+
+.subscribe-section .input-item>button {
+    border-radius: 5px;
+    background: #FF0000;
+
 }
 
+.subscribe-section .input-item>input {
+    width: 250px;
+    border: 0;
+}
+
+/*footer title style*/
+footer {
+    background-color: #070211;
+    padding: 120px 130px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: space-around;
+    border: #FF0000 solid 5px;
+    padding: 20px;
+    color: aliceblue;
+
+}
+
+.icone-item {
+    display: flex;
+    align-items: center;
+    border: #FF0000 solid 5px;
+    padding: 0 510px;
+    width: 300px;
+    color: aliceblue;
+}
+
+.footed-end {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
