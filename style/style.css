@@ -37,16 +37,37 @@
 
 /* welcome section style*/
 
-.welcome-section {
-    max-width: 1200px;
+.welcome-container {
+
     background-image: url(../images/Vectorrr.png);
-    border: #FF0000 solid 5px;
-    
-
-
-    height: 800px;
+   
+display: flex;
+    height: 900px;
+    width: 1200px;
     background-repeat: no-repeat;
     margin-top: 150px;
+    margin-right: 120px;
+}
+.welcome-text{
+    color: beige;
+    height: 600px;
+  
+    margin-left: 90px;
+    width: 800px;
+    margin-right: 0px;
+    padding-right: 0px;
+   
+    
+ 
+}
+.welcome-img{
+    justify-content: left;
+   padding-right:500px;
+    width: 200px;
+    height: 500px;
+   
+ 
+
 }
 
 
@@ -75,8 +96,7 @@
 }
 
 .best-offer-section>div>button {
-    border: solid red 5px;
-    margin: 3px;
+   
     height: 20px;
     padding: 30px;
 }
@@ -102,7 +122,7 @@
 .round-img-style {
 
     border-radius: 50%;
-    border: 10px solid red;
+   
     padding: 15px;
 }
 
@@ -157,7 +177,7 @@
     background-color: rgba(255, 0, 0, 0.05);
     margin: 120px 150px;
     height: 500px;
-    border: rebeccapurple solid 5px;
+   
     width: 1200px;
     color: rgb(255, 0, 0)
 
@@ -165,7 +185,7 @@
 }
 
 .subscribe-section .img-message {
-    border: #FF0000 solid 5px;
+ 
     padding: 20px 520px;
 }
 
@@ -181,15 +201,14 @@ p {
 
 .subscribe-section>input,
 button {
-    border: yellow 5px solid;
+    
     padding: 15px 22px;
 
 }
 
 .subscribe-section .input-item {
 
-    border: green 2px solid
-    ;
+   
     border-radius: 50px;
     margin: 0 420px;
     display: flex;
@@ -224,7 +243,7 @@ footer {
 .footer-title {
     display: flex;
     justify-content: space-around;
-    border: #FF0000 solid 5px;
+    
     padding: 20px;
     color: aliceblue;
 
@@ -233,7 +252,7 @@ footer {
 .icone-item {
     display: flex;
     align-items: center;
-    border: #FF0000 solid 5px;
+    
     padding: 0 510px;
     width: 300px;
     color: aliceblue;
