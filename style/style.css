@@ -38,8 +38,10 @@
 /* welcome section style*/
 
 .welcome-section {
+    max-width: 1200px;
     background-image: url(../images/Vectorrr.png);
-
+    border: #FF0000 solid 5px;
+    
 
 
     height: 800px;
@@ -47,14 +49,12 @@
     margin-top: 150px;
 }
 
-.img {
-    align-items: center;
-}
+
 
 /*best offer section */
 
 .best-offer-section {
-    background-color: rgb(255, 214, 239);
+    background-color: rgba(79, 14, 64, 0.208);
     width: 1325;
     height: 400px;
     margin-left: 40px;
@@ -62,37 +62,48 @@
     border-radius: 5px;
     align-items: center;
 }
-.best-offer-section > h3{
+
+.best-offer-section>h3 {
     text-align: center;
-    padding: 5px ;
+    padding: 5px;
 
 }
-.best-offer-section > div{
+
+.best-offer-section>div {
     padding-top: 70px;
     text-align: center;
 }
-.best-offer-section > div > button{
-border:  solid  red 5px;
-margin: 3px;
-height: 20px;
-padding: 30px;
+
+.best-offer-section>div>button {
+    border: solid red 5px;
+    margin: 3px;
+    height: 20px;
+    padding: 30px;
 }
 
-.best-offer-heading{
+.best-offer-heading {
     text-align: center;
-    padding: 50px ;
+    padding: 50px;
 }
 
 .offer-information {
     text-align: center;
-    color: #bf7e7e;
+    color:red;
 
 }
-.best-offer-container{
+
+.best-offer-container {
     margin: 20px 150px;
     display: flex;
     justify-content: space-around;
 
+}
+
+.round-img-style {
+
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 15px;
 }
 
 
@@ -148,6 +159,7 @@ padding: 30px;
     height: 500px;
     border: rebeccapurple solid 5px;
     width: 1200px;
+    color: rgb(255, 0, 0)
 
 
 }
@@ -175,23 +187,32 @@ button {
 }
 
 .subscribe-section .input-item {
-    border: green 2px solid;
+
+    border: green 2px solid
+    ;
+    border-radius: 50px;
     margin: 0 420px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+
 
 
 }
 
 .subscribe-section .input-item>button {
-    border-radius: 5px;
-    background: #FF0000;
+    border-radius:5px;
+  
 
 }
 
 .subscribe-section .input-item>input {
     width: 250px;
-    border: 0;
+    padding: 5px 15px;
+    font-size: 15px;
+    
+  
+   
 }
 
 /*footer title style*/
